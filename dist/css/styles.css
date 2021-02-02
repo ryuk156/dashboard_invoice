@@ -10270,3 +10270,11 @@ exctra css
 .label_login{
     font-weight: 700;
 }
+
+.create_customer_form{
+  margin-left: 40px;
+    margin-right: 40px;
+    border: 1px lightgrey solid;
+    padding: 40px;
+    border-radius: 10px;
+}
