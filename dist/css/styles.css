@@ -10247,3 +10247,26 @@ body {
 .sb-sidenav-light .sb-sidenav-footer {
   background-color: #e9ecef;
 }
+
+
+/**
+
+exctra css
+
+**/
+
+.login_background{
+  background-image: linear-gradient(to right top, #007bff, #4d6fff, #765eff, #9b45fa, #bc0fed);
+}
+
+.login_font{
+  color: #6979F1;
+  font-family: 'Pacifico';
+}
+.box_shadow_login{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.label_login{
+    font-weight: 700;
+}
