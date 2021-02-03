@@ -10278,3 +10278,18 @@ exctra css
     padding: 40px;
     border-radius: 10px;
 }
+
+.background_navbar{
+  background-color: #6979f1 !important;
+}
+
+.search_textbox{
+  border-radius: 50px;
+  border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    border: none;
+}
+
+.search_icon{
+  margin-left: -40px;
+}

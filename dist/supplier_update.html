@@ -100,11 +100,9 @@
                               Customer
                               
                             </a>
-
-                            <a class="nav-link" href="suppiler.html">
+                             <a class="nav-link" href="suppiler.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                               Supplier
-                              
                             </a>
                         </div>
                     </div>
@@ -117,125 +115,76 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Update Customer</h1>
+                        <h1 class="mt-4">Update Supplier</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Customer</li>
+                            <li class="breadcrumb-item active">Update Suppiler</li>
                         </ol>
-                        <div>
+                        
 
-                         <div class="btn btn-primary mb-3 "> 
-                         <a  class="text-white" style="text-decoration: none;" href="create_customer.html">
-                            <i class="fa fa-plus " aria-hidden="true"></i>&nbsp;&nbsp;Create Customer</div>
-                         </a>
-                         
-                        </div>
-
-                        <div class="card mb-4">
-                            <div class="card-header">
-                                <i class="fas fa-table mr-1"></i>
-                               Customer's
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <thead>
-                                            <tr>
-                                            <th>Sr.No</th>
-                                                <th>Customer Name</th>
-                                                <th>Phone Number</th>
-                                                <th>Email </th>
-                                                <th>Edit</th>
-                                                <th>Delete</th>
-                                               
-                                            </tr>
-                                        </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <th>Sr.No</th>
-                                                <th>Customer Name</th>
-                                                <th>Phone Number</th>
-                                                <th>Email</th>
-                                                <th>Edit</th>
-                                                <th>Delete</th>
-                                                
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
-                                            <tr>
-                                                <td>1.</td>
-                                                <td>Yash Patel</td>
-                                                <td>9273828222</td>
-                                                <td>yashp2928@gmail.com</td>
-                                                <td> <div class="btn btn-danger mb-3 "> 
-                         <a  class="text-white" style="text-decoration: none;" href="customer_update.html">
-                            <i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</div>
-                         </a>
-                         
-                        </div></td>
-                                                <td> <div class="btn btn-primary mb-3 "> 
-                         <a  class="text-white" style="text-decoration: none;" href="">
-                            <i class="fa fa-trash" aria-hidden="true"></i>&nbsp;&nbsp;Delete</div>
-                         </a>
-                         
-                        </div></td>
-                                            </tr>
-                                            <tr>
-                                                <td>1.</td>
-                                                <td>Yash Patel</td>
-                                                <td>9273828222</td>
-                                                <td>yashp2928@gmail.com</td>
-                                                <td> <div class="btn btn-danger mb-3 "> 
-                         <a  class="text-white" style="text-decoration: none;" href="customer_update.html">
-                            <i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</div>
-                         </a>
-                         
-                        </div></td>
-                                                <td> <div class="btn btn-primary mb-3 "> 
-                         <a  class="text-white" style="text-decoration: none;" href="">
-                            <i class="fa fa-trash" aria-hidden="true"></i>&nbsp;&nbsp;Delete</div>
-                         </a>
-                         
-                        </div></td>
-                                            </tr>
-                                            <tr>
-                                                <td>1.</td>
-                                                <td>Yash Patel</td>
-                                                <td>9273828222</td>
-                                                <td>yashp2928@gmail.com</td>
-                                                <td> <div class="btn btn-danger mb-3 "> 
-                         <a  class="text-white" style="text-decoration: none;" href="customer_update.html">
-                            <i class="fas fa-edit"></i>&nbsp;&nbsp;Edit</div>
-                         </a>
-                         
-                        </div></td>
-                                                <td> <div class="btn btn-primary mb-3 "> 
-                         <a  class="text-white" style="text-decoration: none;" href="">
-                            <i class="fa fa-trash" aria-hidden="true"></i>&nbsp;&nbsp;Delete</div>
-                         </a>
-                         
-                        </div></td>
-                                            </tr>
-                                          
-                                        </tbody>
-                                    </table>
+                        <div class="card-body create_customer_form">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class=" mb-1 label_login" >Supplier Name</label>
+                                            <input class="form-control py-4" id="customerName" type="text" placeholder="Enter Customer name" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="mb-1 label_login" >Company Name</label>
+                                            <input class="form-control py-4" id="companyName" type="text" placeholder="Enter Company name" />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class=" mb-1 label_login" >Phone Number</label>
+                                            <input class="form-control py-4" id="phoneNumber" type="number" placeholder="Enter Phone Number" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="mb-1 label_login" >Mobile Number</label>
+                                            <input class="form-control py-4" id="mobileNumber" type="number" placeholder="Enter Mobile Number" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="mb-1 label_login" >Whatsapp Number</label>
+                                            <input class="form-control py-4" id="whatsappNumber" type="number" placeholder="Whatsapp Number" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="mb-1 label_login" >Attach file</label>
+                                            <div class="input-group ">
+                                                
+                                                <div class="custom-file">
+                                                  <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                                                  <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                                                </div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="mb-1 label_login" >Creation Date</label>
+                                    <input class="form-control py-4" id="date" type="date" style="width:200px" />
+                                </div>
+
+                                <div class="form-group mt-4 mb-0 text-center"><button class="btn btn-primary" type="submit" >Update Supplier</button></div>
+                            </form>
                         </div>
+
                     </div>
                 </main>
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2020</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+               
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
